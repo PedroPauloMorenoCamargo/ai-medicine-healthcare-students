@@ -1,0 +1,337 @@
+# 🎓 AI/ML in Medicine and Healthcare - Student Materials
+
+Welcome to the AI/ML in Medicine and Healthcare course! This repository contains all the materials you need to succeed in this course.
+
+> **📌 Important:** This is the **student repository**. Solutions are provided separately by your instructor.
+
+---
+
+## 🚀 Quick Start for Students
+
+**First time here?** Follow these 3 steps:
+
+1. **📖 Read**: [Getting Started Guide](resources/Getting_Started.md)
+2. **⚙️ Setup**: [Set up Google Colab](resources/Getting_Started.md#setting-up-google-colab) (5 minutes)
+3. **💻 Start Learning**: Jump to [Week 1](#week-1-materials) below
+
+---
+
+## 📅 Course Information
+
+- **Duration:** 14 weeks (28 classes)
+- **Format:** 30-40 min lecture + 80-90 min hands-on lab per class
+- **Platform:** Google Colab (free, no installation needed!)
+- **Textbook:** *Fundamentals of Machine Learning and Deep Learning in Medicine* by Borhani, Borhani & Katsaggelos
+
+### 📊 Grading Breakdown
+
+| Component | Weight | Details |
+|-----------|--------|---------|
+| **Group Labs** (8×) | 30% | Weekly exercises, Weeks 2-9 |
+| **Midterm Project** | 15% | Week 8, group project |
+| **Final Project** | 40% | Weeks 10-14, capstone |
+| **Participation** | 15% | Individual, ongoing |
+
+**Note:** Individual grades may vary ±10% from group grade based on peer evaluations.
+
+---
+
+## 📚 Week 1 Materials
+
+### Class 1: Introduction to Machine Learning (Tuesday)
+
+**📊 Lecture Slides:**
+- [Week 1 Class 1 - Introduction to ML](week1/presentations/Week1_Class1_Introduction_ML.pptx)
+- Topics: ML Pipeline, Curse of Dimensionality, ML Taxonomy
+
+**💻 Hands-On Lab:**
+
+[![Open Class 1 Lab in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/ai-ml-medicine-course-students/blob/main/week1/notebooks/Week1_Class1_Introduction_and_Colab_Setup.ipynb)
+
+**What you'll learn:**
+- Set up Google Colab
+- Python basics and NumPy
+- Load and explore medical datasets (Pima Diabetes - 768 patients)
+- Basic data analysis and visualization
+
+**📖 Reading:** Textbook Chapter 1 - Introduction
+
+---
+
+### Class 2: Mathematical Encoding of Medical Data (Thursday)
+
+**📊 Lecture Slides:**
+- [Week 1 Class 2 - Mathematical Encoding](week1/presentations/Week1_Class2_Mathematical_Encoding.pptx)
+- Topics: 6 Medical Data Types, PyTorch Tensors, GPU Acceleration
+
+**💻 Hands-On Lab:**
+
+[![Open Class 2 Lab in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/ai-ml-medicine-course-students/blob/main/week1/notebooks/Week1_Class2_PyTorch_Tensors.ipynb)
+
+**What you'll learn:**
+- Create and manipulate PyTorch tensors
+- Encode numerical, categorical, and time-series medical data
+- One-hot encoding for medical variables
+- GPU acceleration basics
+
+**📖 Reading:** Textbook Chapter 2 - Mathematical Encoding
+
+---
+
+## 🗂️ Repository Structure
+
+```
+ai-ml-medicine-course-students/
+│
+├── 📄 README.md                    ← You are here!
+├── 📄 COURSE_OUTLINE.md           ← Complete 14-week schedule
+├── 📄 QUICK_START.md              ← Fast navigation guide
+│
+├── 📁 week1/                       ← Week 1 materials
+│   ├── README.md
+│   ├── presentations/              ← Lecture slides (.pptx)
+│   └── notebooks/                  ← Lab exercises (.ipynb)
+│
+├── 📁 resources/                   ← Helpful guides
+│   ├── Getting_Started.md         ← Setup instructions
+│   └── FAQ.md                     ← Common questions
+│
+└── 📁 rubrics/                     ← Grading rubrics
+    └── README.md
+```
+
+---
+
+## 💡 How to Use This Repository
+
+### Option 1: Open Notebooks Directly in Colab (Recommended! ⭐)
+
+1. Click any **"Open in Colab"** badge above
+2. Notebook opens in your browser (Google Colab)
+3. **File → Save a copy in Drive** (creates your personal copy)
+4. Start coding immediately!
+
+**Advantages:**
+- ✅ One click to start
+- ✅ No installation needed
+- ✅ Free GPU access
+- ✅ Auto-saves to your Google Drive
+
+### Option 2: Download Individual Files
+
+1. Navigate to the file you want (presentations or notebooks)
+2. Click the filename
+3. Click **"Download"** button (or "Raw" for notebooks)
+4. Open in PowerPoint or upload to Colab
+
+### Option 3: Download Everything (ZIP)
+
+1. Click green **"Code"** button (top right)
+2. Select **"Download ZIP"**
+3. Extract on your computer
+4. Upload notebooks to Colab manually
+
+---
+
+## 🎯 Learning Objectives
+
+By the end of Week 1, you will be able to:
+
+- ✅ Explain the 4-step ML pipeline (Data → Features → Training → Testing)
+- ✅ Understand why ML is needed for complex medical problems
+- ✅ Encode 6 types of medical data as tensors
+- ✅ Create and manipulate PyTorch tensors
+- ✅ Load and analyze medical datasets with pandas
+- ✅ Perform basic data visualization
+
+---
+
+## 🛠️ Technical Requirements
+
+### Required (Free!)
+- **Google Account** - For Google Colab
+- **Web Browser** - Chrome recommended
+- **Internet Connection** - For accessing Colab
+
+### Optional
+- **Local Python Setup** - If you prefer working offline
+  - Python 3.10+
+  - PyTorch, NumPy, pandas, matplotlib
+  - See [Getting Started Guide](resources/Getting_Started.md) for details
+
+---
+
+## 📖 Course Roadmap
+
+### Phase 1: Foundations (Weeks 1-4)
+- **Week 1:** Introduction to ML & Mathematical Encoding ← **You are here**
+- **Week 2:** Python Fundamentals (NumPy, pandas, visualization)
+- **Week 3:** PyTorch Deep Dive (tensors, autograd, modules)
+- **Week 4:** Linear Models (regression, classification)
+
+### Phase 2: Healthcare Data (Weeks 5-6)
+- **Week 5:** HL7 FHIR & Healthcare Standards
+- **Week 6:** DICOM & Medical Imaging + Neural Networks Intro
+
+### Phase 3: Deep Learning (Weeks 7-9)
+- **Week 7:** Convolutional Neural Networks (CNNs)
+- **Week 8:** Recurrent Neural Networks (RNNs) + Midterm Project
+- **Week 9:** Model Evaluation & Clinical Validation
+
+### Phase 4: Final Project (Weeks 10-14)
+- **Week 10:** Ethics, Bias, Fairness + Project Launch
+- **Weeks 11-13:** Project Development
+- **Week 14:** Final Presentations
+
+**Full schedule:** [COURSE_OUTLINE.md](COURSE_OUTLINE.md)
+
+---
+
+## ❓ Getting Help
+
+### During Class
+- Raise hand for instructor help
+- Ask TA for quick questions
+- Collaborate with your group
+
+### Outside Class
+- **First:** Check [FAQ](resources/FAQ.md)
+- **Technical issues:** [Getting Started Guide](resources/Getting_Started.md)
+- **Course questions:** Discussion board on Blackboard
+- **Office hours:** [Schedule posted on Blackboard]
+- **Email instructor:** [Posted on Blackboard]
+
+### Common Issues?
+See [Troubleshooting Section](resources/FAQ.md#troubleshooting-common-issues) in FAQ
+
+---
+
+## 🤝 Working in Groups
+
+You'll be assigned to groups of 3-4 students for:
+- Weekly labs (Weeks 2-9)
+- Midterm project (Week 8)
+- Final project (Weeks 10-14)
+
+**Group Work Tips:**
+- Set regular meeting times
+- Divide tasks but review together
+- Use shared Google Drive folder
+- Communicate frequently
+- Everyone contributes (peer evaluations matter!)
+
+**See:** [Grading Rubrics](rubrics/) for how group work is assessed
+
+---
+
+## 📚 Recommended Resources
+
+### Essential
+- [Google Colab Tutorial](https://colab.research.google.com/notebooks/intro.ipynb)
+- [PyTorch Tutorials](https://pytorch.org/tutorials/)
+- [NumPy Quickstart](https://numpy.org/doc/stable/user/quickstart.html)
+- [pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html)
+
+### Supplementary
+- [Fast.ai Practical Deep Learning](https://course.fast.ai/)
+- [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+- [StatQuest Machine Learning](https://www.youtube.com/c/joshstarmer)
+- [Papers with Code - Medical](https://paperswithcode.com/area/medical)
+
+---
+
+## 🎯 Weekly Workflow
+
+**Before Each Class:**
+1. Review lecture slides
+2. Read assigned textbook chapter
+3. Check Blackboard for announcements
+
+**During Class:**
+1. Attend lecture (30-40 min)
+2. Complete hands-on lab (80-90 min)
+3. Ask questions!
+
+**After Class:**
+1. Finish lab if needed
+2. Review concepts
+3. Start on group assignment (if any)
+4. Prepare for next class
+
+---
+
+## 🏆 Success Tips
+
+### Time Management
+- Dedicate 5-10 hours per week
+- Don't procrastinate on labs
+- Start projects early
+- Review regularly
+
+### Technical Skills
+- **Save frequently** in Colab (File → Save)
+- **Run cells in order** (don't skip!)
+- **Read error messages** carefully
+- **Google is your friend** (StackOverflow, PyTorch docs)
+
+### Learning Strategies
+- **Type code yourself** (don't just copy-paste)
+- **Experiment** (change values, see what happens)
+- **Ask "why"** not just "how"
+- **Connect to medicine** (think about real applications)
+
+### Collaboration
+- **Help each other** (teaching reinforces learning)
+- **Share resources** (good tutorials, articles)
+- **But write your own code** (academic integrity!)
+- **Give credit** (cite sources, acknowledge help)
+
+---
+
+## 📋 Academic Integrity
+
+All work must be your own or your group's. You may:
+- ✅ Discuss concepts with classmates
+- ✅ Search for help online (StackOverflow, documentation)
+- ✅ Use AI assistants for understanding concepts
+- ✅ Collaborate within your assigned group
+
+You may NOT:
+- ❌ Copy code from other groups
+- ❌ Submit someone else's work as your own
+- ❌ Share assignment solutions publicly
+- ❌ Use solutions from previous years
+
+**Violations result in:** Zero on assignment to course failure, depending on severity.
+
+---
+
+## 🎉 Ready to Start?
+
+**Next Steps:**
+1. ✅ Read [Getting Started Guide](resources/Getting_Started.md)
+2. ✅ Set up Google Colab
+3. ✅ Try opening Week 1 Class 1 notebook in Colab
+4. ✅ Join your assigned group
+5. ✅ Attend first class!
+
+**Questions?** Check the [FAQ](resources/FAQ.md) or ask in class!
+
+---
+
+## 📧 Stay Connected
+
+- **Blackboard:** Course announcements, grades, discussions
+- **GitHub:** All course materials (this repository)
+- **Email:** Check daily for updates
+- **Office Hours:** Don't hesitate to attend!
+
+---
+
+**Let's transform healthcare with AI! 🏥🤖**
+
+*Course materials based on: Borhani, R., Borhani, S., & Katsaggelos, A. K. (2022). Fundamentals of Machine Learning and Deep Learning in Medicine. Springer.*
+
+**Repository maintained by:** [Your Name/Institution]  
+**Last updated:** January 2026  
+**Questions?** See [FAQ](resources/FAQ.md) or contact instructor
