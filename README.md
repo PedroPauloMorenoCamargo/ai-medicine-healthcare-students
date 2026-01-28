@@ -1,8 +1,6 @@
-# 🎓 AI/ML in Medicine and Healthcare - Student Materials
+# AI in Medicine and Healthcare - Student Materials
 
 Welcome to the AI in Medicine and Healthcare course! This repository contains all the materials you need to succeed in this course.
-
----
 
 ## 🚀 Quick Start for Students
 
