@@ -1,6 +1,9 @@
-# 🚀 Quick Start Guide for Students
+# 🚀 Quick Start Guide
 
 **New to the course? Start here!**
+
+**Course:** AI in Medicine and Healthcare  
+**Institution:** Insper Instituto de Ensino e Pesquisa, São Paulo
 
 ---
 
@@ -29,10 +32,10 @@ Click this button:
 ## 📱 One-Page Course Overview
 
 ### What You'll Learn
-- Build AI models for medical diagnosis
+- Build AI models for medical diagnosis and prediction
 - Process medical images, EHRs, and genomic data
-- Understand deep learning (CNNs, RNNs)
-- Deploy ML models responsibly in healthcare
+- Understand deep learning (CNNs, RNNs) for healthcare
+- Deploy ML models responsibly in medical settings
 
 ### Time Commitment
 - **5-10 hours per week**

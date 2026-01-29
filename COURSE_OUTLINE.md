@@ -1,351 +1,466 @@
-# Complete 14-Week Course Outline
+# AI in Medicine and Healthcare - Revised Course Outline
+## Single Project Focus (No Midterm)
 
-## Course Structure
-- **Total Weeks:** 14
-- **Total Classes:** 28 (2 per week)
-- **Class Format:** 30-40 min lecture + 80-90 min hands-on lab
-- **Student Groups:** 5-7 groups of 3-4 students each
-
----
-
-## Phase 1: Foundations (Weeks 1-4)
-
-### Week 1: Introduction to ML & Mathematical Encoding
-
-**Class 1: Introduction to Machine Learning**
-- *Lecture Topics:*
-  - Why ML in medicine? (Classical physics vs. medical complexity)
-  - From ELIZA to modern AI (rule-based → data-driven)
-  - The ML Pipeline: Data Collection → Feature Design → Training → Testing
-  - Deep dive into each pipeline step
-  - The curse of dimensionality
-  - ML taxonomy (supervised, unsupervised, reinforcement)
-- *Lab:* Python basics, NumPy, pandas with Pima diabetes dataset (768 patients)
-- *Reading:* Textbook Chapter 1
-
-**Class 2: Mathematical Encoding of Medical Data**
-- *Lecture Topics:*
-  - Why mathematical encoding?
-  - Type 1: Numerical data (vitals, lab results)
-  - Type 2: Categorical data (one-hot encoding)
-  - Type 3: Imaging data (grayscale, RGB, 3D medical imaging)
-  - Type 4: Time-series data (ECG, EEG)
-  - Type 5: Text data (clinical notes, NLP)
-  - Type 6: Genomics data (DNA, RNA encoding)
-  - PyTorch tensors: shapes, operations, GPU acceleration
-- *Lab:* Tensor operations, encoding medical data types
-- *Reading:* Textbook Chapter 2
-
-### Week 2: Python Fundamentals for ML
-
-**Class 3: Python, NumPy & pandas**
-- *Lecture Topics:*
-  - Python data structures
-  - NumPy arrays and operations
-  - pandas DataFrames for medical data
-  - Data cleaning and preprocessing
-  - Exploratory data analysis (EDA)
-- *Lab:* Real medical dataset exploration, missing data handling
-- *Reading:* Python for Data Analysis (McKinney)
-
-**Class 4: Data Visualization**
-- *Lecture Topics:*
-  - matplotlib fundamentals
-  - seaborn for statistical visualization
-  - Medical data visualization best practices
-  - Interactive plots with plotly
-- *Lab:* Create comprehensive medical data visualizations
-- *Reading:* Visualization resources
-- **Deliverable:** Group Lab 1 due
-
-### Week 3: PyTorch Deep Dive
-
-**Class 5: PyTorch Fundamentals**
-- *Lecture Topics:*
-  - Tensors in depth
-  - Autograd and computational graphs
-  - Building neural network modules
-  - Training loops
-  - GPU optimization
-- *Lab:* Build first neural network from scratch
-- *Reading:* Textbook Chapter 3
-
-**Class 6: PyTorch Datasets & DataLoaders**
-- *Lecture Topics:*
-  - Dataset and DataLoader classes
-  - Data augmentation for medical images
-  - Batch processing
-  - Custom dataset creation
-- *Lab:* Create medical imaging dataset pipeline
-- *Reading:* PyTorch documentation
-- **Deliverable:** Group Lab 2 due
-
-### Week 4: Linear Models
-
-**Class 7: Linear Regression**
-- *Lecture Topics:*
-  - 1D and multi-dimensional linear regression
-  - Least squares cost function
-  - Closed-form solutions
-  - Gradient descent
-  - Input normalization
-  - Regularization (L1, L2)
-- *Lab:* Predict patient outcomes with linear regression
-- *Reading:* Textbook Chapter 4
-
-**Class 8: Linear Classification**
-- *Lecture Topics:*
-  - Binary classification
-  - Logistic function and sigmoid
-  - Cross-entropy loss
-  - Multi-class classification (softmax)
-  - Decision boundaries
-- *Lab:* Disease classification with logistic regression
-- *Reading:* Textbook Chapter 5
-- **Deliverable:** Group Lab 3 due
+**Institution:** Insper Instituto de Ensino e Pesquisa, São Paulo, Brazil  
+**Target Audience:** Engineering and Computer Science students  
+**Course Type:** Elective/Specialization
 
 ---
 
-## Phase 2: Healthcare Data (Weeks 5-6)
+## 📋 Course Structure Changes
 
-### Week 5: Healthcare Data Standards
+### **Old Structure:**
+- 30% Labs (8 weekly)
+- 15% Midterm Project
+- 40% Final Project
+- 15% Participation
 
-**Class 9: HL7 FHIR Introduction**
-- *Lecture Topics:*
-  - Healthcare interoperability challenges
-  - HL7 FHIR overview
-  - FHIR resources (Patient, Observation, Condition)
-  - RESTful API basics
-  - Python FHIR libraries
-- *Lab:* Parse and query FHIR resources
-- *Reading:* FHIR specification
-
-**Class 10: Electronic Health Records (EHR)**
-- *Lecture Topics:*
-  - EHR structure and challenges
-  - Temporal data in EHRs
-  - Missing data strategies
-  - Feature engineering from EHRs
-- *Lab:* Build patient cohort from MIMIC-III data
-- *Reading:* MIMIC-III documentation
-- **Deliverable:** Group Lab 4 due
-
-### Week 6: Medical Imaging & Neural Networks
-
-**Class 11: DICOM & Medical Imaging**
-- *Lecture Topics:*
-  - DICOM standard overview
-  - Image modalities (X-ray, CT, MRI, ultrasound)
-  - DICOM tags and metadata
-  - Image preprocessing (windowing, normalization)
-  - pydicom library
-- *Lab:* Load and process DICOM images
-- *Reading:* DICOM standard
-
-**Class 12: Introduction to Neural Networks**
-- *Lecture Topics:*
-  - From feature engineering to feature learning
-  - Perceptrons and multi-layer networks
-  - Activation functions (ReLU, sigmoid, tanh)
-  - Backpropagation intuition
-  - Network architecture design
-- *Lab:* Build fully connected network for medical imaging
-- *Reading:* Textbook Chapter 6
-- **Deliverable:** Group Lab 5 due
-
----
-
-## Phase 3: Deep Learning (Weeks 7-9)
-
-### Week 7: Convolutional Neural Networks
-
-**Class 13: CNN Fundamentals**
-- *Lecture Topics:*
-  - Convolution operation
-  - Filters and feature maps
-  - Pooling layers
-  - CNN architectures (LeNet, AlexNet, VGG)
-  - Transfer learning
-- *Lab:* Chest X-ray pneumonia detection
-- *Reading:* Textbook Chapter 7
-
-**Class 14: Advanced CNNs**
-- *Lecture Topics:*
-  - ResNet and skip connections
-  - Inception modules
-  - Medical image segmentation (U-Net)
-  - Object detection for medical imaging
-- *Lab:* Implement U-Net for organ segmentation
-- *Reading:* Key CNN papers
-- **Deliverable:** Group Lab 6 due
-
-### Week 8: Recurrent Neural Networks & Midterm
-
-**Class 15: RNN Fundamentals**
-- *Lecture Topics:*
-  - Sequence modeling challenges
-  - Vanilla RNNs
-  - LSTMs and GRUs
-  - Bidirectional RNNs
-  - Applications to time-series medical data
-- *Lab:* ECG arrhythmia classification with LSTMs
-- *Reading:* Textbook Chapter 7 (RNN section)
-
-**Class 16: Attention & Transformers**
-- *Lecture Topics:*
-  - Attention mechanism
-  - Transformer architecture
-  - BERT for medical text
-  - Clinical note processing
-- *Lab:* Medical text classification with transformers
-- *Reading:* "Attention is All You Need"
-- **Deliverable:** Midterm Project due
-
-### Week 9: Model Evaluation & Clinical Validation
-
-**Class 17: Performance Metrics**
-- *Lecture Topics:*
-  - Classification metrics (accuracy, precision, recall, F1, AUC-ROC)
-  - Regression metrics (MSE, MAE, R²)
-  - Confusion matrices
-  - Class imbalance handling
-  - Cross-validation strategies
-- *Lab:* Comprehensive model evaluation
-- *Reading:* Textbook Chapter 8
-
-**Class 18: Clinical Validation & Deployment**
-- *Lecture Topics:*
-  - Clinical vs. technical validation
-  - Prospective vs. retrospective studies
-  - FDA approval process for medical AI
-  - Model monitoring in production
-  - Failure modes in medical AI
-- *Lab:* Model interpretability with SHAP/LIME
-- *Reading:* FDA AI/ML guidance documents
-- **Deliverable:** Group Lab 7 due
-
----
-
-## Phase 4: Final Project (Weeks 10-14)
-
-### Week 10: Ethics & Project Launch
-
-**Class 19: Ethics, Bias, and Fairness**
-- *Lecture Topics:*
-  - Algorithmic bias in healthcare
-  - Fairness metrics and trade-offs
-  - Health equity considerations
-  - HIPAA and patient privacy
-  - Informed consent for AI
-- *Lab:* Bias detection and mitigation
-- *Reading:* Ethics papers and case studies
-
-**Class 20: Final Project Kickoff**
-- *Lecture Topics:*
-  - Project scope and expectations
-  - Dataset selection
-  - Proposal components
-  - Timeline and milestones
-  - Team roles and responsibilities
-- *Lab:* Project proposal development
-- *Reading:* Example projects
-- **Deliverable:** Project proposal due + Group Lab 8 due
-
-### Week 11: Project Development I
-
-**Class 21: Data Pipeline Workshop**
-- *Activity:* Group work session with instructor feedback
-- *Topics:* Data loading, preprocessing, augmentation
-- *Milestone:* Data pipeline complete
-
-**Class 22: Model Development Workshop**
-- *Activity:* Group work session with instructor feedback
-- *Topics:* Model architecture, baseline results
-- *Milestone:* Initial model training complete
-
-### Week 12: Project Development II
-
-**Class 23: Evaluation Workshop**
-- *Activity:* Group work session with instructor feedback
-- *Topics:* Performance metrics, error analysis
-- *Milestone:* Model evaluation complete
-
-**Class 24: Interpretation Workshop**
-- *Activity:* Group work session with instructor feedback
-- *Topics:* Model interpretability, clinical insights
-- *Milestone:* Interpretation complete
-
-### Week 13: Project Development III
-
-**Class 25: Deployment Preparation**
-- *Activity:* Group work session
-- *Topics:* Documentation, code quality, reproducibility
-- *Milestone:* Code and documentation finalized
-
-**Class 26: Presentation Practice**
-- *Activity:* Practice presentations with peer feedback
-- *Topics:* Storytelling, visualization, Q&A preparation
-- *Milestone:* Presentation slides complete
-
-### Week 14: Final Presentations & Wrap-up
-
-**Class 27: Final Project Presentations (Part 1)**
-- *Format:* 15 min presentation + 5 min Q&A per group
-- *Audience:* Class + invited guests
-- *Assessment:* Graded by instructors and peers
-
-**Class 28: Final Project Presentations (Part 2) & Course Wrap-up**
-- *Format:* Remaining presentations
-- *Activity:* Course retrospective and feedback
-- *Celebration:* Recognize outstanding projects
-- **Deliverable:** Final project report and code due
-
----
-
-## Assessment Summary
-
-| Week | Deliverable | Type | Weight |
-|------|-------------|------|--------|
-| 2 | Group Lab 1 | Lab | 3.75% |
-| 3 | Group Lab 2 | Lab | 3.75% |
-| 4 | Group Lab 3 | Lab | 3.75% |
-| 5 | Group Lab 4 | Lab | 3.75% |
-| 6 | Group Lab 5 | Lab | 3.75% |
-| 7 | Group Lab 6 | Lab | 3.75% |
-| 8 | Midterm Project | Project | 15% |
-| 9 | Group Lab 7 | Lab | 3.75% |
-| 10 | Group Lab 8 + Proposal | Lab + Proposal | 3.75% |
-| 14 | Final Project | Project | 40% |
-| Ongoing | Individual Participation | Participation | 15% |
+### **New Structure:** ⭐
+- **40% Labs** (8 weekly, 5% each)
+- **45% Group Project** (single comprehensive project)
+- **15% Participation**
 
 **Total: 100%**
 
 ---
 
-## Learning Outcomes by Phase
+## 🎯 Project Timeline Overview
 
-### Phase 1: Foundations
-✓ Understand ML pipeline and taxonomy
-✓ Encode medical data as tensors
-✓ Write Python code for data analysis
-✓ Build and train linear models
-✓ Evaluate model performance
+| Week | Project Milestone | Weight | Deliverable |
+|------|------------------|--------|-------------|
+| 1-3 | Exploration & Ideation | - | Informal brainstorming |
+| 4 | **Proposal Submission** | 5% | 2-page project proposal |
+| 5 | Proposal Feedback & Refinement | - | Revised proposal (if needed) |
+| 6 | Dataset Acquisition & EDA | 5% | Dataset ready, initial analysis |
+| 8 | **Progress Report 1** | 10% | Model baseline, preliminary results |
+| 10 | **Progress Report 2** | 10% | Advanced modeling, interpretation |
+| 12 | Code & Documentation Review | 5% | Complete codebase, reproducibility check |
+| 14 | **Final Presentation** | 10% | 15-min presentation + Q&A |
+| 14 | **Final Report & Code** | 15% | Complete deliverable package |
 
-### Phase 2: Healthcare Data
-✓ Work with FHIR and DICOM standards
-✓ Process EHR data
-✓ Handle medical imaging data
-✓ Build neural networks from scratch
+**Project Total: 60% (including 15% participation)**
 
-### Phase 3: Deep Learning
-✓ Implement CNNs for medical imaging
-✓ Apply RNNs to time-series medical data
-✓ Use transformers for clinical text
-✓ Validate models clinically
-✓ Understand ethical considerations
+---
 
-### Phase 4: Capstone Project
-✓ Execute complete ML project end-to-end
-✓ Collaborate effectively in teams
-✓ Present technical work to diverse audiences
-✓ Produce publication-quality results
+## 📅 Detailed 14-Week Schedule
+
+### **Phase 1: Foundations + Project Launch (Weeks 1-5)**
+
+#### **Week 1: Introduction to ML & Mathematical Encoding**
+
+**Class 1: Introduction to Machine Learning**
+- ML Pipeline, Curse of Dimensionality, ML Taxonomy
+- **Lab:** Python, NumPy, pandas with Pima diabetes dataset
+- **Project:** None yet (focus on foundations)
+
+**Class 2: Mathematical Encoding of Medical Data**
+- 6 data types, PyTorch tensors, GPU acceleration
+- **Lab:** Tensor operations, medical data encoding
+- **Project:** Start thinking about medical AI interests
+
+---
+
+#### **Week 2: Python Fundamentals**
+
+**Class 3: Python, NumPy & pandas**
+- Data structures, array operations, DataFrames
+- **Lab:** Medical dataset exploration, missing data handling
+- **Project:** Browse potential datasets (Kaggle, PhysioNet, Grand Challenge)
+
+**Class 4: Data Visualization**
+- matplotlib, seaborn, medical visualization best practices
+- **Lab:** Create comprehensive medical data visualizations
+- **Deliverable:** Group Lab 1 due (5%)
+
+---
+
+#### **Week 3: PyTorch Deep Dive**
+
+**Class 5: PyTorch Fundamentals**
+- Tensors, autograd, computational graphs, training loops
+- **Lab:** Build first neural network from scratch
+- **Project:** Form groups (3-4 students), discuss interests
+
+**Class 6: PyTorch Datasets & DataLoaders**
+- Dataset/DataLoader classes, data augmentation, batch processing
+- **Lab:** Create medical imaging dataset pipeline
+- **Deliverable:** Group Lab 2 due (5%)
+- **Project:** Groups finalized, brainstorming sessions
+
+---
+
+#### **Week 4: Linear Models + Project Proposal**
+
+**Class 7: Linear Regression**
+- Multi-dimensional regression, gradient descent, regularization
+- **Lab:** Predict patient outcomes with linear regression
+- **Project:** Draft proposal (topic, dataset, objectives)
+
+**Class 8: Linear Classification**
+- Logistic regression, softmax, multi-class classification
+- **Lab:** Disease classification with logistic regression
+- **Deliverable:** Group Lab 3 due (5%)
+- **🎯 PROJECT PROPOSAL DUE (5%)**
+
+**Proposal Requirements:**
+- 2-3 pages (excluding references)
+- Medical problem statement
+- Dataset description (with availability confirmation)
+- Proposed approach (ML/DL methods)
+- Expected outcomes
+- Timeline
+- Team member roles
+
+---
+
+#### **Week 5: Healthcare Data Standards + Proposal Refinement**
+
+**Class 9: HL7 FHIR Introduction**
+- Healthcare interoperability, FHIR resources, RESTful APIs
+- **Lab:** Parse and query FHIR resources
+- **Project:** Instructor feedback on proposals
+
+**Class 10: Electronic Health Records (EHR)**
+- EHR structure, temporal data, feature engineering
+- **Lab:** Build patient cohort from MIMIC-III data
+- **Deliverable:** Group Lab 4 due (5%)
+- **Project:** Revised proposals (if needed), dataset acquisition begins
+
+---
+
+### **Phase 2: Healthcare Data + Early Development (Weeks 6-7)**
+
+#### **Week 6: Medical Imaging + Dataset Preparation**
+
+**Class 11: DICOM & Medical Imaging**
+- DICOM standard, image modalities, preprocessing
+- **Lab:** Load and process DICOM images
+- **🎯 PROJECT MILESTONE: Dataset + EDA (5%)**
+
+**Requirements:**
+- Dataset acquired and loaded
+- Exploratory data analysis complete
+- Data quality assessment
+- Preprocessing pipeline defined
+- 1-page report + code
+
+**Class 12: Introduction to Neural Networks**
+- Perceptrons, multi-layer networks, backpropagation
+- **Lab:** Build fully connected network for medical imaging
+- **Deliverable:** Group Lab 5 due (5%)
+
+---
+
+#### **Week 7: Convolutional Neural Networks**
+
+**Class 13: CNN Fundamentals**
+- Convolution, pooling, CNN architectures, transfer learning
+- **Lab:** Chest X-ray pneumonia detection
+- **Project:** Baseline model development
+
+**Class 14: Advanced CNNs**
+- ResNet, U-Net for segmentation, object detection
+- **Lab:** Implement U-Net for organ segmentation
+- **Deliverable:** Group Lab 6 due (5%)
+- **Project:** Baseline results ready for Progress Report 1
+
+---
+
+### **Phase 3: Deep Learning + Iterative Development (Weeks 8-11)**
+
+#### **Week 8: RNNs + Progress Report 1**
+
+**Class 15: RNN Fundamentals**
+- Sequence modeling, LSTMs, GRUs, bidirectional RNNs
+- **Lab:** ECG arrhythmia classification with LSTMs
+- **Project:** Continue model development
+
+**Class 16: Attention & Transformers**
+- Attention mechanism, Transformer architecture, BERT
+- **Lab:** Medical text classification with transformers
+- **🎯 PROGRESS REPORT 1 DUE (10%)**
+
+**Progress Report 1 Requirements:**
+- 3-4 pages
+- Dataset description and statistics
+- Baseline model architecture
+- Initial results (accuracy, loss curves)
+- Challenges encountered
+- Next steps
+- Updated timeline
+
+---
+
+#### **Week 9: Model Evaluation & Clinical Validation**
+
+**Class 17: Performance Metrics**
+- Classification/regression metrics, confusion matrices, cross-validation
+- **Lab:** Comprehensive model evaluation
+- **Project:** Refine models based on Progress Report 1 feedback
+
+**Class 18: Clinical Validation & Deployment**
+- Clinical vs. technical validation, FDA approval, model monitoring
+- **Lab:** Model interpretability with SHAP/LIME
+- **Deliverable:** Group Lab 7 due (5%)
+- **Project:** Advanced modeling phase
+
+---
+
+#### **Week 10: Ethics + Progress Report 2**
+
+**Class 19: Ethics, Bias, and Fairness**
+- Algorithmic bias, fairness metrics, health equity, HIPAA
+- **Lab:** Bias detection and mitigation
+- **Project:** Incorporate ethical considerations
+
+**Class 20: Advanced Techniques Workshop**
+- Hyperparameter tuning, ensemble methods, optimization
+- **Lab:** Improve model performance
+- **🎯 PROGRESS REPORT 2 DUE (10%)**
+
+**Progress Report 2 Requirements:**
+- 4-5 pages
+- Advanced model architecture(s)
+- Comparison of approaches
+- Performance analysis (including fairness metrics)
+- Clinical interpretation of results
+- Model limitations
+- Plans for final deliverable
+
+---
+
+#### **Week 11: Project Development & Mentoring**
+
+**Class 21: Code Quality & Reproducibility**
+- Clean code practices, documentation, version control, reproducible research
+- **Workshop:** Code review with instructor/TAs
+- **Project:** Code cleanup and documentation
+
+**Class 22: Visualization & Communication**
+- Scientific visualization, creating figures for papers/presentations
+- **Workshop:** Practice presentations with peer feedback
+- **Deliverable:** Group Lab 8 due (5%)
+- **Project:** Finalize results and visualizations
+
+---
+
+### **Phase 4: Finalization & Presentation (Weeks 12-14)**
+
+#### **Week 12: Documentation & Peer Review**
+
+**Class 23: Writing for Technical Audiences**
+- Structure of ML papers, clear methodology, results reporting
+- **Workshop:** Draft final report, peer review session
+- **Project:** Write final report
+
+**Class 24: Deployment Considerations**
+- Docker, APIs, model serving, monitoring in production
+- **Workshop:** Create deployment documentation
+- **🎯 CODE & DOCUMENTATION REVIEW (5%)**
+
+**Requirements:**
+- Complete, runnable codebase on GitHub
+- README with setup instructions
+- Requirements.txt or environment.yml
+- Clear code structure and comments
+- Reproducible results
+- CI/CD optional but encouraged
+
+---
+
+#### **Week 13: Presentation Preparation**
+
+**Class 25: Effective Scientific Presentations**
+- Storytelling with data, slide design, handling Q&A
+- **Workshop:** Mock presentations with feedback
+- **Project:** Finalize presentation slides
+
+**Class 26: Presentation Practice Session**
+- Each group presents to class (informal, practice run)
+- Peer and instructor feedback
+- Q&A practice
+- **Project:** Incorporate feedback into final presentation
+
+---
+
+#### **Week 14: Final Presentations & Course Wrap-up**
+
+**Class 27: Final Project Presentations (Part 1)**
+- **Format:** 15 min presentation + 5 min Q&A per group
+- **Audience:** Class + invited guests (clinicians, researchers)
+- **Presentation slides due before class**
+- **🎯 FINAL PRESENTATION (10%)**
+
+**Class 28: Final Presentations (Part 2) & Course Celebration**
+- Remaining presentations
+- Best project awards (peer + instructor voting)
+- Course retrospective and feedback
+- Networking and celebration
+- **🎯 FINAL REPORT & CODE DUE (15%)**
+
+**Final Deliverable Package:**
+- Final report (8-10 pages, conference paper format)
+- Complete codebase (GitHub repository)
+- Presentation slides
+- Demo video (3-5 min, optional but encouraged)
+- Data availability statement
+- Individual contribution statements
+
+---
+
+## 📊 Complete Grading Breakdown
+
+### Labs: 40% (8 labs × 5% each)
+| Week | Lab | Weight |
+|------|-----|--------|
+| 2 | Lab 1: Python & Data Analysis | 5% |
+| 3 | Lab 2: PyTorch Basics | 5% |
+| 4 | Lab 3: Linear Models | 5% |
+| 5 | Lab 4: FHIR & EHR Data | 5% |
+| 6 | Lab 5: Medical Imaging | 5% |
+| 7 | Lab 6: CNNs | 5% |
+| 9 | Lab 7: Model Evaluation | 5% |
+| 11 | Lab 8: Advanced Techniques | 5% |
+
+### Group Project: 45%
+| Week | Milestone | Weight |
+|------|-----------|--------|
+| 4 | Project Proposal | 5% |
+| 6 | Dataset + EDA | 5% |
+| 8 | Progress Report 1 | 10% |
+| 10 | Progress Report 2 | 10% |
+| 12 | Code & Documentation | 5% |
+| 14 | Final Presentation | 10% |
+| 14 | Final Report & Code | 15% |
+
+### Participation: 15%
+- Attendance (5%)
+- In-class engagement (5%)
+- Peer feedback & collaboration (5%)
+
+**Total: 100%**
+
+---
+
+## 🎯 Project Requirements Summary
+
+### Minimum Requirements
+- **Medical relevance:** Clear healthcare application
+- **Dataset size:** Sufficient for ML (minimum ~500 samples)
+- **Model complexity:** Beyond baseline (not just logistic regression)
+- **Evaluation:** Proper train/test split, multiple metrics
+- **Interpretation:** Clinical significance of results
+- **Ethics:** Consider bias, fairness, privacy
+- **Reproducibility:** Complete code and documentation
+
+### Encouraged Elements
+- Novel dataset or approach
+- Multiple model comparisons
+- Clinical validation considerations
+- Deployment readiness
+- Collaboration with medical professionals
+- Publication-quality deliverables
+
+### Topic Examples
+- Disease diagnosis from medical imaging
+- Clinical outcome prediction from EHR
+- Drug response prediction from genomics
+- Medical text analysis (radiology reports, clinical notes)
+- Time-series analysis (ECG, EEG, vital signs)
+- Multi-modal fusion (imaging + clinical data)
+
+---
+
+## 📝 Individual Grade Adjustments
+
+- Base grade from group deliverables
+- Individual adjustments ±15% based on:
+  - Peer evaluations (after each milestone)
+  - Individual contribution statements
+  - Code commit history (GitHub insights)
+  - Meeting participation (instructor observations)
+
+**Consistently low contribution = significant grade reduction**
+
+---
+
+## 🔄 Compared to Old Structure
+
+### What Changed?
+| Aspect | Old | New |
+|--------|-----|-----|
+| **Number of projects** | 2 (midterm + final) | 1 (comprehensive) |
+| **Project weight** | 55% (15% + 40%) | 45% (integrated) |
+| **Lab weight** | 30% (3.75% each) | 40% (5% each) |
+| **Project start** | Week 10 | Week 1 (ideation) |
+| **Proposal** | Week 10 | Week 4 |
+| **Progress reports** | None for midterm, late for final | 2 checkpoints (Weeks 8, 10) |
+| **Milestones** | 2 major deadlines | 7 progressive milestones |
+
+### Why This is Better?
+- ✅ **More time** for a deep, meaningful project
+- ✅ **Iterative feedback** through multiple checkpoints
+- ✅ **Early start** allows for ambitious scope
+- ✅ **Less stress** - no midterm crunch
+- ✅ **Better learning** - sustained engagement vs. two rushed projects
+- ✅ **Publication potential** - quality over quantity
+- ✅ **Realistic** - mirrors real research/industry projects
+
+---
+
+## 🎓 Learning Outcomes
+
+By the end of the course, students will:
+
+**Technical Skills:**
+- ✅ Design and implement complete ML pipelines
+- ✅ Work with diverse medical data types
+- ✅ Build and evaluate deep learning models
+- ✅ Process medical images, EHR data, and genomics
+- ✅ Deploy models with proper documentation
+
+**Domain Knowledge:**
+- ✅ Understand medical AI landscape
+- ✅ Navigate healthcare data standards
+- ✅ Consider clinical validation requirements
+- ✅ Address ethical issues (bias, fairness, privacy)
+- ✅ Communicate with medical professionals
+
+**Professional Skills:**
+- ✅ Collaborate effectively in teams
+- ✅ Manage long-term technical projects
+- ✅ Present technical work to diverse audiences
+- ✅ Write clear documentation and reports
+- ✅ Incorporate iterative feedback
+
+**Project Management:**
+- ✅ Scope and plan ambitious projects
+- ✅ Meet progressive deadlines
+- ✅ Pivot when needed based on challenges
+- ✅ Deliver publication-quality work
+
+---
+
+## 📚 Student Support Structure
+
+### Regular Check-ins
+- **Weeks 4-14:** Weekly project office hours
+- **After each milestone:** Detailed written feedback
+- **Ongoing:** TA support for technical issues
+
+### Resources Provided
+- Project proposal templates
+- Progress report rubrics
+- Final report template (conference paper format)
+- Presentation rubric
+- Example projects from past courses
+- Dataset suggestions and access guidance
+
+### Flexibility
+- Can pivot project direction at Progress Report 1 (Week 8)
+- Extensions available for documented challenges
+- Group reconfiguration possible (with approval)
+
+---
+
+**Next: See detailed rubrics for each project component!**

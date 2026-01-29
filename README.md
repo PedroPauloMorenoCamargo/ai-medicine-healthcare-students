@@ -1,6 +1,12 @@
-# AI in Medicine and Healthcare - Student Materials
+# 🎓 AI in Medicine and Healthcare - Student Materials
 
-Welcome to the AI in Medicine and Healthcare course! This repository contains all the materials you need to succeed in this course.
+Welcome to AI in Medicine and Healthcare! This repository contains all the materials you need to succeed in this course.
+
+> **📌 Important:** This is the **student repository**. Solutions are provided separately by your instructor.
+
+> **🏫 Course:** Offered at Insper Instituto de Ensino e Pesquisa, São Paulo, Brazil for Engineering and Computer Science students.
+
+---
 
 ## 🚀 Quick Start for Students
 
@@ -17,18 +23,19 @@ Welcome to the AI in Medicine and Healthcare course! This repository contains al
 - **Duration:** 14 weeks (28 classes)
 - **Format:** 30-40 min lecture + 80-90 min hands-on lab per class
 - **Platform:** Google Colab (free, no installation needed!)
+- **Institution:** Insper Instituto de Ensino e Pesquisa, São Paulo, Brazil
+- **Students:** Engineering and Computer Science majors
 - **Textbook:** *Fundamentals of Machine Learning and Deep Learning in Medicine* by Borhani, Borhani & Katsaggelos
 
 ### 📊 Grading Breakdown
 
 | Component | Weight | Details |
 |-----------|--------|---------|
-| **Group Labs** (8×) | 30% | Weekly exercises, Weeks 2-9 |
-| **Midterm Project** | 15% | Week 8, group project |
-| **Final Project** | 40% | Weeks 10-14, capstone |
+| **Group Labs** (8×) | 40% | Weekly exercises, 5% each (Weeks 2-9) |
+| **Group Project** | 45% | Single comprehensive project with 7 milestones |
 | **Participation** | 15% | Individual, ongoing |
 
-**Note:** Individual grades may vary ±10% from group grade based on peer evaluations.
+**Note:** Individual grades may vary ±15% from group grade based on peer evaluations.
 
 ---
 
@@ -83,18 +90,29 @@ ai-ml-medicine-course-students/
 ├── 📄 COURSE_OUTLINE.md           ← Complete 14-week schedule
 ├── 📄 QUICK_START.md              ← Fast navigation guide
 │
-├── 📁 week1/                       ← Week 1 materials
+├── 📁 week1/                       ← ✅ COMPLETE
 │   ├── README.md
 │   ├── presentations/              ← Lecture slides (.pptx)
+│   │   ├── Week1_Class1_Introduction_ML.pptx
+│   │   └── Week1_Class2_Mathematical_Encoding.pptx
 │   └── notebooks/                  ← Lab exercises (.ipynb)
+│       ├── Week1_Class1_Introduction_and_Colab_Setup.ipynb
+│       └── Week1_Class2_PyTorch_Tensors.ipynb
 │
-├── 📁 resources/                   ← Helpful guides
-│   ├── Getting_Started.md         ← Setup instructions
-│   └── FAQ.md                     ← Common questions
+├── 📁 week2/                       ← Coming soon
+├── 📁 [weeks 3-14]/                ← Coming soon
 │
-└── 📁 rubrics/                     ← Grading rubrics
-    └── README.md
+├── 📁 rubrics/                     ← Grading rubrics
+│   ├── README.md
+│   ├── PROJECT_RUBRICS.md          ← All project milestones
+│   └── LAB_RUBRICS.md              ← All lab rubrics
+│
+└── 📁 resources/                   ← Helpful guides
+    ├── Getting_Started.md          ← Setup instructions
+    └── FAQ.md                      ← Common questions
 ```
+
+**Note:** Datasets load directly in notebooks - no downloads needed!
 
 ---
 
@@ -159,25 +177,27 @@ By the end of Week 1, you will be able to:
 
 ## 📖 Course Roadmap
 
-### Phase 1: Foundations (Weeks 1-4)
+### Phase 1: Foundations + Project Launch (Weeks 1-5)
 - **Week 1:** Introduction to ML & Mathematical Encoding ← **You are here**
-- **Week 2:** Python Fundamentals (NumPy, pandas, visualization)
-- **Week 3:** PyTorch Deep Dive (tensors, autograd, modules)
-- **Week 4:** Linear Models (regression, classification)
+- **Week 2:** Python Fundamentals + Project Exploration
+- **Week 3:** PyTorch Deep Dive + Group Formation
+- **Week 4:** Linear Models + **Project Proposal Due (5%)**
+- **Week 5:** Healthcare Data Standards + Proposal Refinement
 
-### Phase 2: Healthcare Data (Weeks 5-6)
-- **Week 5:** HL7 FHIR & Healthcare Standards
-- **Week 6:** DICOM & Medical Imaging + Neural Networks Intro
+### Phase 2: Healthcare Data + Early Development (Weeks 6-7)
+- **Week 6:** DICOM & Medical Imaging + **Dataset + EDA Due (5%)**
+- **Week 7:** Convolutional Neural Networks
 
-### Phase 3: Deep Learning (Weeks 7-9)
-- **Week 7:** Convolutional Neural Networks (CNNs)
-- **Week 8:** Recurrent Neural Networks (RNNs) + Midterm Project
+### Phase 3: Deep Learning + Iterative Development (Weeks 8-11)
+- **Week 8:** Recurrent Neural Networks + **Progress Report 1 Due (10%)**
 - **Week 9:** Model Evaluation & Clinical Validation
+- **Week 10:** Ethics & Fairness + **Progress Report 2 Due (10%)**
+- **Week 11:** Advanced Techniques + Project Development
 
-### Phase 4: Final Project (Weeks 10-14)
-- **Week 10:** Ethics, Bias, Fairness + Project Launch
-- **Weeks 11-13:** Project Development
-- **Week 14:** Final Presentations
+### Phase 4: Finalization & Presentation (Weeks 12-14)
+- **Week 12:** Code Quality + **Code Review Due (5%)**
+- **Week 13:** Presentation Preparation
+- **Week 14:** **Final Presentation (10%) & Report (15%)**
 
 **Full schedule:** [COURSE_OUTLINE.md](COURSE_OUTLINE.md)
 
