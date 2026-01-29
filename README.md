@@ -25,7 +25,8 @@ Welcome to AI in Medicine and Healthcare! This repository contains all the mater
 - **Platform:** Google Colab (free, no installation needed!)
 - **Institution:** Insper Instituto de Ensino e Pesquisa, São Paulo, Brazil
 - **Students:** Engineering and Computer Science majors
-- **Textbook:** *Fundamentals of Machine Learning and Deep Learning in Medicine* by Borhani, Borhani & Katsaggelos
+- **Primary Textbook:** Borhani et al. (2022), *Fundamentals of ML and DL in Medicine*
+- **Supporting Texts:** Suetens (2017); Pattanayak & Singh (2023); Leung & Zhou (2024)
 
 ### 📊 Grading Breakdown
 
@@ -242,13 +243,30 @@ You'll be assigned to groups of 3-4 students for:
 
 ## 📚 Recommended Resources
 
-### Essential
+### Required Textbook
+**Borhani, R., Borhani, S., & Katsaggelos, A. K. (2022).** *Fundamentals of Machine Learning and Deep Learning in Medicine*. Springer.
+- DOI: https://doi.org/10.1007/978-3-031-19502-0
+- [Access via Springer](https://link.springer.com/book/10.1007/978-3-031-19502-0)
+
+### Supporting Books
+
+**Medical Imaging (Week 6):**
+- **Suetens, P. (2017).** *Fundamentals of Medical Imaging* (3rd ed.). Cambridge University Press.
+
+**PyTorch & Computer Vision (Weeks 6-8):**
+- **Pattanayak, S., & Singh, V. (2023).** *Modern Computer Vision with PyTorch* (2nd ed.). Packt Publishing.
+
+**ML Systems (Weeks 9-10):**
+- **Leung, C., & Zhou, M. (2024).** *Introduction to Machine Learning Systems*. 
+  - Free online: https://mlsysbook.ai
+
+### Essential Online Resources
 - [Google Colab Tutorial](https://colab.research.google.com/notebooks/intro.ipynb)
 - [PyTorch Tutorials](https://pytorch.org/tutorials/)
 - [NumPy Quickstart](https://numpy.org/doc/stable/user/quickstart.html)
 - [pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html)
 
-### Supplementary
+### Supplementary Learning
 - [Fast.ai Practical Deep Learning](https://course.fast.ai/)
 - [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 - [StatQuest Machine Learning](https://www.youtube.com/c/joshstarmer)
