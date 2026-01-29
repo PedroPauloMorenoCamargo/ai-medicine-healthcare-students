@@ -1,4 +1,6 @@
-# Getting Started with AI/ML in Medicine Course
+# Getting Started with AI in Medicine and Healthcare
+
+**Institution:** Insper Instituto de Ensino e Pesquisa, São Paulo, Brazil
 
 ## Welcome! 👋
 
