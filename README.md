@@ -366,6 +366,6 @@ You may NOT:
 
 *Course materials based on: Borhani, R., Borhani, S., & Katsaggelos, A. K. (2022). Fundamentals of Machine Learning and Deep Learning in Medicine. Springer.*
 
-**Repository maintained by:** [Your Name/Institution]  
+**Repository maintained by:** Marcel P. Jackowski, Insper.  
 **Last updated:** January 2026  
 **Questions?** See [FAQ](resources/FAQ.md) or contact instructor
