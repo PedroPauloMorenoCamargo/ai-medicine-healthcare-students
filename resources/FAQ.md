@@ -95,7 +95,6 @@
 ### Q: When are labs due?
 **A:** 
 - Labs 1-8: End of following week (7 days after assignment)
-- Midterm project: Week 8
 - Final project: Week 14
 - See course outline for exact dates
 
