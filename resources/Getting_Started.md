@@ -12,7 +12,7 @@ This guide will help you get set up for the course and ensure you have everythin
 - [ ] **Course Access** - Blackboard enrollment confirmed
 - [ ] **Group Assignment** - Know your group members (3-4 students)
 - [ ] **Communication** - Join course discussion board
-- [ ] **Schedule** - Classes on [Days/Times TBD]
+- [ ] **Schedule** - Classes on Tuesdays and Thursdays - 4:30PM
 
 ## Setting Up Google Colab
 
