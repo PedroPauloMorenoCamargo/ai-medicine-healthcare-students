@@ -205,7 +205,7 @@
 ### Q: Where do I ask questions?
 **A:** 
 1. **Quick questions:** During class
-2. **Technical help:** Discussion board (TAs monitor)
+2. **Technical help:** Discussion board
 3. **Private concerns:** Email instructor
 4. **Complex questions:** Office hours
 
