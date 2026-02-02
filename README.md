@@ -36,8 +36,6 @@ Welcome to AI in Medicine and Healthcare! This repository contains all the mater
 | **Group Project** | 45% | Single comprehensive project with 7 milestones |
 | **Participation** | 15% | Individual, ongoing |
 
-**Note:** Individual grades may vary ±15% from group grade based on peer evaluations.
-
 ---
 
 ## 📚 Week 1 Materials
