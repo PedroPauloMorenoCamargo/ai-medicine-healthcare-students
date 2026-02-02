@@ -20,7 +20,7 @@ Welcome to AI in Medicine and Healthcare! This repository contains all the mater
 
 ## 📅 Course Information
 
-- **Duration:** 14 weeks (28 classes)
+- **Duration:** 14 weeks (26 classes)
 - **Format:** 30-40 min lecture + 80-90 min hands-on lab per class
 - **Platform:** Google Colab (free, no installation needed!)
 - **Institution:** Insper Instituto de Ensino e Pesquisa, São Paulo, Brazil
