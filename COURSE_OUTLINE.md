@@ -1,26 +1,8 @@
-# AI in Medicine and Healthcare - Revised Course Outline
-## Single Project Focus (No Midterm)
+# AI in Medicine and Healthcare - Course Outline
 
 **Institution:** Insper Instituto de Ensino e Pesquisa, São Paulo, Brazil  
 **Target Audience:** Engineering and Computer Science students  
 **Course Type:** Elective/Specialization
-
----
-
-## 📋 Course Structure Changes
-
-### **Old Structure:**
-- 30% Labs (8 weekly)
-- 15% Midterm Project
-- 40% Final Project
-- 15% Participation
-
-### **New Structure:** ⭐
-- **40% Labs** (8 weekly, 5% each)
-- **45% Group Project** (single comprehensive project)
-- **15% Participation**
-
-**Total: 100%**
 
 ---
 
@@ -34,11 +16,11 @@
 | 6 | Dataset Acquisition & EDA | 5% | Dataset ready, initial analysis |
 | 8 | **Progress Report 1** | 10% | Model baseline, preliminary results |
 | 10 | **Progress Report 2** | 10% | Advanced modeling, interpretation |
-| 12 | Code & Documentation Review | 5% | Complete codebase, reproducibility check |
+| 12 | Code & Documentation Review | - | Complete codebase, reproducibility check |
 | 14 | **Final Presentation** | 10% | 15-min presentation + Q&A |
-| 14 | **Final Report & Code** | 15% | Complete deliverable package |
+| 14 | **Final Report & Code** | 10% | Complete deliverable package |
 
-**Project Total: 60% (including 15% participation)**
+**Project Total: 50%**
 
 ---
 
