@@ -2,8 +2,6 @@
 
 Welcome to AI in Medicine and Healthcare! This repository contains all the materials you need to succeed in this course.
 
-> **📌 Important:** This is the **student repository**. Solutions are provided separately by your instructor.
-
 > **🏫 Course:** Offered at Insper Instituto de Ensino e Pesquisa, São Paulo, Brazil for Engineering and Computer Science students.
 
 ---
