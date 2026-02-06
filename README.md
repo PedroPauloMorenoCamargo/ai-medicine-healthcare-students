@@ -33,8 +33,8 @@ Welcome to AI in Medicine and Healthcare! This repository contains all the mater
 | Component | Weight | Details |
 |-----------|--------|---------|
 | **Group Labs** (8×) | 40% | Weekly exercises, 5% each (Weeks 2-9) |
-| **Group Project** | 45% | Single comprehensive project with 7 milestones |
-| **Participation** | 15% | Individual, ongoing |
+| **Group Project** | 50% | Single comprehensive project with 7 milestones |
+| **Participation** | 10% | Individual, ongoing |
 
 ---
 
