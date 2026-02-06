@@ -304,19 +304,17 @@
 | 9 | Lab 7: Model Evaluation | 5% |
 | 11 | Lab 8: Advanced Techniques | 5% |
 
-### Group Project: 45%
+### Group Project: 50%
 | Week | Milestone | Weight |
 |------|-----------|--------|
 | 4 | Project Proposal | 5% |
 | 6 | Dataset + EDA | 5% |
 | 8 | Progress Report 1 | 10% |
 | 10 | Progress Report 2 | 10% |
-| 12 | Code & Documentation | 5% |
 | 14 | Final Presentation | 10% |
-| 14 | Final Report & Code | 15% |
+| 14 | Final Report & Code | 10% |
 
-### Participation: 15%
-- Attendance (5%)
+### Participation: 10%
 - In-class engagement (5%)
 - Peer feedback & collaboration (5%)
 
