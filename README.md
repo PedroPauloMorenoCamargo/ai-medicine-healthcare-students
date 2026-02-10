@@ -46,7 +46,7 @@ Welcome to AI in Medicine and Healthcare! This repository contains all the mater
 
 **💻 Hands-On Lab:**
 
-[![Open Class 1 Lab in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjck/ai-ml-medicine-course-students/blob/main/week1/notebooks/Week1_Class1_Introduction_and_Colab_Setup.ipynb)
+[![Open Class 1 Lab in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjck/ai-medicine-course-students/blob/main/week1/notebooks/Week1_Class1_Introduction_and_Colab_Setup.ipynb)
 
 **What you'll learn:**
 - Set up Google Colab
@@ -66,7 +66,7 @@ Welcome to AI in Medicine and Healthcare! This repository contains all the mater
 
 **💻 Hands-On Lab:**
 
-[![Open Class 2 Lab in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjck/ai-ml-medicine-course-students/blob/main/week1/notebooks/Week1_Class2_PyTorch_Tensors.ipynb)
+[![Open Class 2 Lab in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjck/ai-medicine-course-students/blob/main/week1/notebooks/Week1_Class2_PyTorch_Tensors.ipynb)
 
 **What you'll learn:**
 - Create and manipulate PyTorch tensors
