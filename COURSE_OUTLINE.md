@@ -1,26 +1,8 @@
-# AI in Medicine and Healthcare - Revised Course Outline
-## Single Project Focus (No Midterm)
+# AI in Medicine and Healthcare - Course Outline
 
 **Institution:** Insper Instituto de Ensino e Pesquisa, São Paulo, Brazil  
 **Target Audience:** Engineering and Computer Science students  
 **Course Type:** Elective/Specialization
-
----
-
-## 📋 Course Structure Changes
-
-### **Old Structure:**
-- 30% Labs (8 weekly)
-- 15% Midterm Project
-- 40% Final Project
-- 15% Participation
-
-### **New Structure:** ⭐
-- **40% Labs** (8 weekly, 5% each)
-- **45% Group Project** (single comprehensive project)
-- **15% Participation**
-
-**Total: 100%**
 
 ---
 
@@ -34,11 +16,11 @@
 | 6 | Dataset Acquisition & EDA | 5% | Dataset ready, initial analysis |
 | 8 | **Progress Report 1** | 10% | Model baseline, preliminary results |
 | 10 | **Progress Report 2** | 10% | Advanced modeling, interpretation |
-| 12 | Code & Documentation Review | 5% | Complete codebase, reproducibility check |
+| 12 | Code & Documentation Review | - | Complete codebase, reproducibility check |
 | 14 | **Final Presentation** | 10% | 15-min presentation + Q&A |
-| 14 | **Final Report & Code** | 15% | Complete deliverable package |
+| 14 | **Final Report & Code** | 10% | Complete deliverable package |
 
-**Project Total: 60% (including 15% participation)**
+**Project Total: 50%**
 
 ---
 
@@ -322,19 +304,17 @@
 | 9 | Lab 7: Model Evaluation | 5% |
 | 11 | Lab 8: Advanced Techniques | 5% |
 
-### Group Project: 45%
+### Group Project: 50%
 | Week | Milestone | Weight |
 |------|-----------|--------|
 | 4 | Project Proposal | 5% |
 | 6 | Dataset + EDA | 5% |
 | 8 | Progress Report 1 | 10% |
 | 10 | Progress Report 2 | 10% |
-| 12 | Code & Documentation | 5% |
 | 14 | Final Presentation | 10% |
-| 14 | Final Report & Code | 15% |
+| 14 | Final Report & Code | 10% |
 
-### Participation: 15%
-- Attendance (5%)
+### Participation: 10%
 - In-class engagement (5%)
 - Peer feedback & collaboration (5%)
 
@@ -384,30 +364,6 @@
 
 ---
 
-## 🔄 Compared to Old Structure
-
-### What Changed?
-| Aspect | Old | New |
-|--------|-----|-----|
-| **Number of projects** | 2 (midterm + final) | 1 (comprehensive) |
-| **Project weight** | 55% (15% + 40%) | 45% (integrated) |
-| **Lab weight** | 30% (3.75% each) | 40% (5% each) |
-| **Project start** | Week 10 | Week 1 (ideation) |
-| **Proposal** | Week 10 | Week 4 |
-| **Progress reports** | None for midterm, late for final | 2 checkpoints (Weeks 8, 10) |
-| **Milestones** | 2 major deadlines | 7 progressive milestones |
-
-### Why This is Better?
-- ✅ **More time** for a deep, meaningful project
-- ✅ **Iterative feedback** through multiple checkpoints
-- ✅ **Early start** allows for ambitious scope
-- ✅ **Less stress** - no midterm crunch
-- ✅ **Better learning** - sustained engagement vs. two rushed projects
-- ✅ **Publication potential** - quality over quantity
-- ✅ **Realistic** - mirrors real research/industry projects
-
----
-
 ## 🎓 Learning Outcomes
 
 By the end of the course, students will:
@@ -446,14 +402,12 @@ By the end of the course, students will:
 ### Regular Check-ins
 - **Weeks 4-14:** Weekly project office hours
 - **After each milestone:** Detailed written feedback
-- **Ongoing:** TA support for technical issues
 
 ### Resources Provided
 - Project proposal templates
 - Progress report rubrics
 - Final report template (conference paper format)
 - Presentation rubric
-- Example projects from past courses
 - Dataset suggestions and access guidance
 
 ### Flexibility

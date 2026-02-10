@@ -2,8 +2,6 @@
 
 Welcome to AI in Medicine and Healthcare! This repository contains all the materials you need to succeed in this course.
 
-> **📌 Important:** This is the **student repository**. Solutions are provided separately by your instructor.
-
 > **🏫 Course:** Offered at Insper Instituto de Ensino e Pesquisa, São Paulo, Brazil for Engineering and Computer Science students.
 
 ---
@@ -20,7 +18,7 @@ Welcome to AI in Medicine and Healthcare! This repository contains all the mater
 
 ## 📅 Course Information
 
-- **Duration:** 14 weeks (28 classes)
+- **Duration:** 14 weeks (26 classes)
 - **Format:** 30-40 min lecture + 80-90 min hands-on lab per class
 - **Platform:** Google Colab (free, no installation needed!)
 - **Institution:** Insper Instituto de Ensino e Pesquisa, São Paulo, Brazil
@@ -33,10 +31,8 @@ Welcome to AI in Medicine and Healthcare! This repository contains all the mater
 | Component | Weight | Details |
 |-----------|--------|---------|
 | **Group Labs** (8×) | 40% | Weekly exercises, 5% each (Weeks 2-9) |
-| **Group Project** | 45% | Single comprehensive project with 7 milestones |
-| **Participation** | 15% | Individual, ongoing |
-
-**Note:** Individual grades may vary ±15% from group grade based on peer evaluations.
+| **Group Project** | 50% | Single comprehensive project with 7 milestones |
+| **Participation** | 10% | Individual, ongoing |
 
 ---
 
@@ -45,12 +41,12 @@ Welcome to AI in Medicine and Healthcare! This repository contains all the mater
 ### Class 1: Introduction to Machine Learning (Tuesday)
 
 **📊 Lecture Slides:**
-- [Week 1 Class 1 - Introduction to ML](week1/presentations/Week1_Class1_Introduction_ML.pptx)
+- [Week 1 Class 1 - Introduction to ML](week1/presentations/Week1_Class1_Introduction_ML.pdf)
 - Topics: ML Pipeline, Curse of Dimensionality, ML Taxonomy
 
 **💻 Hands-On Lab:**
 
-[![Open Class 1 Lab in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/ai-ml-medicine-course-students/blob/main/week1/notebooks/Week1_Class1_Introduction_and_Colab_Setup.ipynb)
+[![Open Class 1 Lab in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjck/ai-medicine-healthcare-students/blob/main/week1/notebooks/Week1_Class1_Introduction_and_Colab_Setup.ipynb)
 
 **What you'll learn:**
 - Set up Google Colab
@@ -65,12 +61,12 @@ Welcome to AI in Medicine and Healthcare! This repository contains all the mater
 ### Class 2: Mathematical Encoding of Medical Data (Thursday)
 
 **📊 Lecture Slides:**
-- [Week 1 Class 2 - Mathematical Encoding](week1/presentations/Week1_Class2_Mathematical_Encoding.pptx)
+- [Week 1 Class 2 - Mathematical Encoding](week1/presentations/Week1_Class2_Mathematical_Encoding.pdf)
 - Topics: 6 Medical Data Types, PyTorch Tensors, GPU Acceleration
 
 **💻 Hands-On Lab:**
 
-[![Open Class 2 Lab in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/ai-ml-medicine-course-students/blob/main/week1/notebooks/Week1_Class2_PyTorch_Tensors.ipynb)
+[![Open Class 2 Lab in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjck/ai-medicine-healthcare-students/blob/main/week1/notebooks/Week1_Class2_PyTorch_Tensors.ipynb)
 
 **What you'll learn:**
 - Create and manipulate PyTorch tensors
@@ -366,6 +362,6 @@ You may NOT:
 
 *Course materials based on: Borhani, R., Borhani, S., & Katsaggelos, A. K. (2022). Fundamentals of Machine Learning and Deep Learning in Medicine. Springer.*
 
-**Repository maintained by:** [Your Name/Institution]  
+**Repository maintained by:** Marcel P. Jackowski, Insper.  
 **Last updated:** January 2026  
 **Questions?** See [FAQ](resources/FAQ.md) or contact instructor

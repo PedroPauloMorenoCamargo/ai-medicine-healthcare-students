@@ -12,7 +12,7 @@ This guide will help you get set up for the course and ensure you have everythin
 - [ ] **Course Access** - Blackboard enrollment confirmed
 - [ ] **Group Assignment** - Know your group members (3-4 students)
 - [ ] **Communication** - Join course discussion board
-- [ ] **Schedule** - Classes on [Days/Times TBD]
+- [ ] **Schedule** - Classes on Tuesdays and Thursdays - 4:30PM
 
 ## Setting Up Google Colab
 
@@ -203,13 +203,12 @@ print(df.describe())
 
 ### During Class
 - Raise hand for instructor help
-- Ask TA for quick questions
 - Collaborate with group members
 
 ### Outside Class
 1. **Office Hours:** [Schedule TBD]
 2. **Discussion Board:** Blackboard → Discussions
-3. **Email:** [Instructor email] (allow 24-48 hours)
+3. **Email:** mjack@insper.edu.br (allow 24-48 hours)
 4. **Study Groups:** Coordinate with classmates
 
 ### Self-Help Resources
@@ -280,7 +279,6 @@ torch.cuda.empty_cache()
 
 ### Response Times
 - **Instructor:** Within 24-48 hours (weekdays)
-- **TA:** Within 24 hours (weekdays)
 - **Peers:** Vary, be patient and helpful
 
 ## Ready to Start!
@@ -290,8 +288,6 @@ torch.cuda.empty_cache()
 ✅ You know your group
 ✅ You've reviewed Python basics
 ✅ You have course materials
-
-**Next step:** Attend Week 1 Class 1 and complete your first lab! 🎉
 
 ---
 

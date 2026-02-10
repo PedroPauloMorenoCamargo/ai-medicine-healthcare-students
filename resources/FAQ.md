@@ -95,7 +95,6 @@
 ### Q: When are labs due?
 **A:** 
 - Labs 1-8: End of following week (7 days after assignment)
-- Midterm project: Week 8
 - Final project: Week 14
 - See course outline for exact dates
 
@@ -206,7 +205,7 @@
 ### Q: Where do I ask questions?
 **A:** 
 1. **Quick questions:** During class
-2. **Technical help:** Discussion board (TAs monitor)
+2. **Technical help:** Discussion board
 3. **Private concerns:** Email instructor
 4. **Complex questions:** Office hours
 
