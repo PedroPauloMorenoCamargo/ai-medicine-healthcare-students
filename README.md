@@ -41,12 +41,12 @@ Welcome to AI in Medicine and Healthcare! This repository contains all the mater
 ### Class 1: Introduction to Machine Learning (Tuesday)
 
 **📊 Lecture Slides:**
-- [Week 1 Class 1 - Introduction to ML](week1/presentations/Week1_Class1_Introduction_ML.pptx)
+- [Week 1 Class 1 - Introduction to ML](week1/presentations/Week1_Class1_Introduction_ML.pdf)
 - Topics: ML Pipeline, Curse of Dimensionality, ML Taxonomy
 
 **💻 Hands-On Lab:**
 
-[![Open Class 1 Lab in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjack/ai-ml-medicine-course-students/blob/main/week1/notebooks/Week1_Class1_Introduction_and_Colab_Setup.ipynb)
+[![Open Class 1 Lab in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjck/ai-ml-medicine-course-students/blob/main/week1/notebooks/Week1_Class1_Introduction_and_Colab_Setup.ipynb)
 
 **What you'll learn:**
 - Set up Google Colab
@@ -61,7 +61,7 @@ Welcome to AI in Medicine and Healthcare! This repository contains all the mater
 ### Class 2: Mathematical Encoding of Medical Data (Thursday)
 
 **📊 Lecture Slides:**
-- [Week 1 Class 2 - Mathematical Encoding](week1/presentations/Week1_Class2_Mathematical_Encoding.pptx)
+- [Week 1 Class 2 - Mathematical Encoding](week1/presentations/Week1_Class2_Mathematical_Encoding.pdf)
 - Topics: 6 Medical Data Types, PyTorch Tensors, GPU Acceleration
 
 **💻 Hands-On Lab:**
